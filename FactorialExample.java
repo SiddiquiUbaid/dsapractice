@@ -7,7 +7,7 @@ public class FactorialExample {
 		
 		int result = factorial(n);
 		
-		System.out.println("factorial of " + n + "is : " + result);
+		System.out.println("factorial of " + n + " is : " + result);
 		
 	}
 	
