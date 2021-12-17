@@ -1,14 +1,20 @@
 package dsapractice;
 
+import java.util.Scanner;
+
 public class FibonacciSeries {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int index = 7;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter an index to find fibancci sum: ");
+		int index = input.nextInt();
+	
 		int result = fibonacci(index);
 		
-		System.out.println("fibonacci sum for index " + " is " + result);
+		System.out.println("fibonacci sum for index " + index + " is: " + result);
 	}
 	
 	public static int fibonacci(int index) {
